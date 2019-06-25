@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
-import org.mindrot.jbcrypt.BCrypt;
+import lib.org.mindrot.jbcrypt.BCrypt;
 
 public class PasswordGen {
     static String storedHashedPass;
