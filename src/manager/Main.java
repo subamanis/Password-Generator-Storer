@@ -261,7 +261,7 @@ public final class Main
     private Account fillAccountDetails(String password){
         String siteName,username,email,extraInfo;
         System.out.print("\nGive me the name of the website: ");
-		sc.next();
+		sc.nextLine();
         siteName=sc.nextLine();
         System.out.print("\nGive me the username you used: ");
         username=sc.nextLine();
