@@ -1,0 +1,15 @@
+[ {
+  "siteName" : "twitter",
+  "username" : "petros21",
+  "email" : "petros@dd",
+  "password" : "none",
+  "extraInfo" : "password",
+  "timestampUpdated" : "2023/02/09 02:37:01"
+}, {
+  "siteName" : "twitter22",
+  "username" : "petros2122",
+  "email" : "petros@dd22",
+  "password" : "none22",
+  "extraInfo" : "password22",
+  "timestampUpdated" : "2023/02/09 02:37:01"
+} ]
