@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aed919f6-a769-4fa7-8512-b5ecd04e3ebf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/Account1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/Account2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/acountfields/AccountField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/acountfields/CardNumberField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/acountfields/EmailField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/acountfields/ExtraInfoField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/acountfields/FieldValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/acountfields/FourDigitPinField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/acountfields/PasswordField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/acountfields/SiteNameField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/acountfields/ThreeDigitPinField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/acountfields/UsernameField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/domain/serializers/AccountFieldListSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manager/io/LocalDateTimeDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/io/JsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/io/JsonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/logic/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/logic/Account1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/logic/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/domain/Utilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.json" beforeDir="false" />
+    <list default="true" id="aed919f6-a769-4fa7-8512-b5ecd04e3ebf" name="Changes" comment="Made AccountFields and serialization of them">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Password-Generator-Storer/manager/io/JsonTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Password-Generator-Storer/manager/io/JsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Password-Generator-Storer/manager/io/JsonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Password-Generator-Storer/manager/logic/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Password-Generator-Storer/manager/logic/Account1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Password-Generator-Storer/manager/logic/AccountSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Password-Generator-Storer/manager/logic/LocalDateTimeDeserializer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/IntellijProjects/Password-Generator-Storer/lib/jackson-databind-2.9.8.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/dev/IntellijProjects/Password-Generator-Storer/lib/jackson-databind-2.9.8.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="manager.Main" />
@@ -93,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672412976986</updated>
     </task>
+    <task id="LOCAL-00001" summary="Made AccountFields and serialization of them">
+      <created>1676228647946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676228647946</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made AccountFields and serialization of them" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made AccountFields and serialization of them" />
   </component>
 </project>
