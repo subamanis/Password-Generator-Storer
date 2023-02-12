@@ -1,26 +1,29 @@
-//package manager.logic;
-//
+package manager.domain;
+
 //import manager.io.IOHandler;
 //import manager.security.SecurityHandler;
-//
-//import java.io.Console;
-//import java.util.*;
-//
-//public abstract class Utilities
-//{
-//    private static Scanner sc = new Scanner(System.in);
-//    private static Console console = System.console();
-//
-//    public static final char[] characters = new char[] {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P',
-//        'Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f',
-//        'g','h','i','j','k','m','n','o','p','q','r','s','t','u','v',
-//        'w','x','y','z','1','2','3','4','5','6','7','8','9'};
-//
-//    public static final char[] numbers = new char[] {'1','2','3','4','5','6','7','8','9'};
-//
-//    public static final char[] specialCharacters = new char[] {'!','@','#','$','&'};
-//
-//
+
+import java.io.Console;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
+
+public final class Utilities
+{
+    private static Scanner sc = new Scanner(System.in);
+    private static Console console = System.console();
+
+    public static final DateTimeFormatter DATETIME_FORMATTER = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss.SSS");
+
+    public static final char[] characters = new char[] {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P',
+        'Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f',
+        'g','h','i','j','k','m','n','o','p','q','r','s','t','u','v',
+        'w','x','y','z','1','2','3','4','5','6','7','8','9'};
+
+    public static final char[] numbers = new char[] {'1','2','3','4','5','6','7','8','9'};
+
+    public static final char[] specialCharacters = new char[] {'!','@','#','$','&'};
+
+
 //    public static void getPasswordInputWithCheckAndSave(String prompt)
 //    {
 //        String input;
@@ -33,12 +36,12 @@
 //        SecurityHandler.hashPassAndSetIfNotSet(input);
 //        IOHandler.saveAccounts(new ArrayList<>());
 //    }
-//
-//    public static char[] getPasswordInputNoCheck(String prompt)
-//    {
-//        return console.readPassword(prompt);
-//    }
-//
+
+    public static char[] getPasswordInputNoCheck(String prompt)
+    {
+        return console.readPassword(prompt);
+    }
+
 //    public static boolean tryLogin()
 //    {
 //        System.out.print("Give the password: ");
@@ -56,49 +59,49 @@
 //
 //        return true;
 //    }
-//
-//
-//    // *********************************- Utility functions -****************************************
-//
-//
-//    /* Ensures an int input from the user between two bounds.
-//     *  All the necessary checks are made.*/
-//    public static int getIntInputWithBounds(String promptMessage, int lowerBound, int upperBound)
-//    {
-//        int input = -1;
-//        while (true) {
-//            System.out.print(promptMessage);
-//            try {
-//                input = sc.nextInt();
-//            }catch (InputMismatchException e){
-//                sc.nextLine();
-//            }
-//            if(input >= lowerBound && input <= upperBound){
-//                break;
-//            }else{
-//                System.out.println("Incorrect input.");
-//            }
-//        }
-//        return input;
-//    }
-//
-//    public static int getIntInputWithBoundExcludingCharacter(String promptMessage, int lowerBound, int upperBound, int exclusion)
-//    {
-//        int input = -1;
-//        while (true) {
-//            System.out.print(promptMessage);
-//            try {
-//                input = sc.nextInt();
-//            }catch (InputMismatchException e){
-//                sc.nextLine();
-//            }
-//            if((input >= lowerBound && input <= upperBound) || input == exclusion){
-//                break;
-//            }else{
-//                System.out.println("Incorrect input.");
-//            }
-//        }
-//        return input;
-//    }
-//
-//}
+
+
+    // *********************************- Utility functions -****************************************
+
+
+    /* Ensures an int input from the user between two bounds.
+     *  All the necessary checks are made.*/
+    public static int getIntInputWithBounds(String promptMessage, int lowerBound, int upperBound)
+    {
+        int input = -1;
+        while (true) {
+            System.out.print(promptMessage);
+            try {
+                input = sc.nextInt();
+            }catch (InputMismatchException e){
+                sc.nextLine();
+            }
+            if(input >= lowerBound && input <= upperBound){
+                break;
+            }else{
+                System.out.println("Incorrect input.");
+            }
+        }
+        return input;
+    }
+
+    public static int getIntInputWithBoundExcludingCharacter(String promptMessage, int lowerBound, int upperBound, int exclusion)
+    {
+        int input = -1;
+        while (true) {
+            System.out.print(promptMessage);
+            try {
+                input = sc.nextInt();
+            }catch (InputMismatchException e){
+                sc.nextLine();
+            }
+            if((input >= lowerBound && input <= upperBound) || input == exclusion){
+                break;
+            }else{
+                System.out.println("Incorrect input.");
+            }
+        }
+        return input;
+    }
+
+}
