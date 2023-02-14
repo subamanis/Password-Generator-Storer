@@ -17,16 +17,16 @@ public class AccountDeserializer extends JsonDeserializer<Account2> {
     @Override
     public Account2 deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         JsonNode node = jsonParser.getCodec().readTree(jsonParser);
+        String uuid = node.get("uuid").asText();
         List<AccountField> fields = new ArrayList<>();
         node.get("fields").forEach(fieldNode -> {
-            System.out.println("node: "+fieldNode);
             try {
                 fields.add(jsonParser.getCodec().treeToValue(fieldNode, AccountField.class));
             } catch (JsonProcessingException e) {
                 throw new RuntimeException(e);
             }
         });
-        return new Account2(fields);
+        return new Account2(uuid, fields);
     }
 
 }

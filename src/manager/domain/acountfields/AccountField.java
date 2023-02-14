@@ -49,7 +49,11 @@ public abstract class AccountField implements FieldValidator {
     }
 
     public LocalDateTime getLastModified() {
+
         return lastModified;
+    }
+    public void setLastModified(LocalDateTime dateTime) {
+        this.lastModified = dateTime;
     }
 
     @JsonProperty("type")

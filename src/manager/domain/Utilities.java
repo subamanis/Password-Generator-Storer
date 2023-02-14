@@ -60,10 +60,6 @@ public final class Utilities
 //        return true;
 //    }
 
-
-    // *********************************- Utility functions -****************************************
-
-
     /* Ensures an int input from the user between two bounds.
      *  All the necessary checks are made.*/
     public static int getIntInputWithBounds(String promptMessage, int lowerBound, int upperBound)
@@ -104,4 +100,7 @@ public final class Utilities
         return input;
     }
 
+    public static String generateUuid() {
+        return UUID.randomUUID().toString();
+    }
 }

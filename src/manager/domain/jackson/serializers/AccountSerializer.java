@@ -22,7 +22,18 @@ public class AccountSerializer extends StdSerializer<Account2> {
     @Override
     public void serialize(Account2 account, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
         jsonGenerator.writeStartObject();
+        jsonGenerator.writeStringField("uuid", account.getUUID());
         jsonGenerator.writeFieldName("fields");
+        jsonGenerator.writeStartArray();
+        for (AccountField accountField : account.getFields()) {
+            jsonGenerator.writeStartObject();
+            jsonGenerator.writeStringField("type", accountField.getType());
+            jsonGenerator.writeStringField("value", accountField.getValue());
+            jsonGenerator.writeStringField("lastModified", accountField.getLastModified().format(Utilities.DATETIME_FORMATTER));
+            jsonGenerator.writeEndObject();
+        }
+        jsonGenerator.writeEndArray();
+        jsonGenerator.writeFieldName("deletedFields");
         jsonGenerator.writeStartArray();
         for (AccountField accountField : account.getFields()) {
             jsonGenerator.writeStartObject();
