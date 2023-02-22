@@ -24,19 +24,24 @@ import java.util.Objects;
         @Type(value = ThreeDigitPinField.class, name = "threeDigitPin"),
 })
 public abstract class AccountField implements FieldValidator {
-    public String value;
+    private String value;
 
-    public LocalDateTime lastModified;
+    private LocalDateTime dateTimeLastModified;
 
     public AccountField(String value) {
         this.value = value;
-        this.lastModified = LocalDateTime.now();
+        this.dateTimeLastModified = LocalDateTime.now();
+    }
+
+    public AccountField(String value, LocalDateTime dateTimeLastModified) {
+        this.value = value;
+        this.dateTimeLastModified = dateTimeLastModified;
     }
 
     public abstract boolean validate(String value);
 
     public boolean isMoreRecentlyUpdatedThan(AccountField other) {
-        return this.lastModified.isAfter(other.lastModified);
+        return this.dateTimeLastModified.isAfter(other.dateTimeLastModified);
     }
 
     public String getValue() {
@@ -45,15 +50,15 @@ public abstract class AccountField implements FieldValidator {
 
     public void setValue(String value) {
         this.value = value;
-        this.lastModified = LocalDateTime.now();
+        this.dateTimeLastModified = LocalDateTime.now();
     }
 
-    public LocalDateTime getLastModified() {
+    public LocalDateTime getDateTimeLastModified() {
 
-        return lastModified;
+        return dateTimeLastModified;
     }
-    public void setLastModified(LocalDateTime dateTime) {
-        this.lastModified = dateTime;
+    public void setDateTimeLastModified(LocalDateTime dateTime) {
+        this.dateTimeLastModified = dateTime;
     }
 
     @JsonProperty("type")
@@ -63,7 +68,7 @@ public abstract class AccountField implements FieldValidator {
 
     public String toString() {
         return this.getClass().getSimpleName() + ": "+ this.value +
-                "(" + this.lastModified.format(Utilities.DATETIME_FORMATTER) + ")";
+                "(" + this.dateTimeLastModified.format(Utilities.DATETIME_FORMATTER) + ")";
     }
 
     @Override
