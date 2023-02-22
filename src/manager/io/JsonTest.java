@@ -2,6 +2,7 @@ package manager.io;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import manager.Utilities;
 import manager.domain.Account2;
 import manager.domain.acountfields.AccountField;
 import manager.domain.acountfields.EmailField;
@@ -21,10 +22,11 @@ public class JsonTest {
     }
 
     public void testIt() {
+        Utilities.logger.logError("test");
+
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
         mapper.registerModule(new ApplicationModule());
-
 
         try {
             List<AccountField> accountFields = List.of(new EmailField("test@yahoo.com"),

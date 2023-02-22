@@ -2,6 +2,7 @@ package manager.domain;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import manager.Utilities;
 import manager.domain.acountfields.AccountField;
 import manager.domain.acountfields.SiteNameField;
 

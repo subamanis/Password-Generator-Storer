@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aed919f6-a769-4fa7-8512-b5ecd04e3ebf" name="Changes" comment="socket work + uuid, deletedFields on Account">
-      <change afterPath="$PROJECT_DIR$/tests/manager/domain/AccountListMergerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/manager/domain/TestUtilities.java" afterDir="false" />
+    <list default="true" id="aed919f6-a769-4fa7-8512-b5ecd04e3ebf" name="Changes" comment="merger + datetimes">
+      <change afterPath="$PROJECT_DIR$/src/manager/io/Logger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Password-Generator-Storer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Password-Generator-Storer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manager/domain/Account2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/domain/Account2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/domain/AccountListMerger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/domain/AccountListMerger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/domain/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/Utilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manager/domain/acountfields/AccountField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/domain/acountfields/AccountField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/domain/jackson/deserializers/LocalDateTimeDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/domain/jackson/deserializers/LocalDateTimeDeserializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manager/domain/jackson/serializers/AccountSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/domain/jackson/serializers/AccountSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/domain/jackson/serializers/LocalDateTimeSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/domain/jackson/serializers/LocalDateTimeSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/io/JsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/io/JsonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,27 +42,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/dev/IntellijProjects/Password-Generator-Storer/lib/jackson-databind-2.9.8.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/IntellijProjects/Password-Generator-Storer/lib/jackson-databind-2.9.8.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="manager" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="manager.domain" />
@@ -131,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676336609983</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="merger + datetimes">
+      <created>1677105497622</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677105497622</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +162,8 @@
     <MESSAGE value="(de)serialization of account class" />
     <MESSAGE value="added test file to gitignore" />
     <MESSAGE value="socket work + uuid, deletedFields on Account" />
-    <option name="LAST_COMMIT_MESSAGE" value="socket work + uuid, deletedFields on Account" />
+    <MESSAGE value="merger + datetimes" />
+    <option name="LAST_COMMIT_MESSAGE" value="merger + datetimes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -3,7 +3,7 @@ package manager.domain.jackson.serializers;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
-import manager.domain.Utilities;
+import manager.Utilities;
 
 import java.io.IOException;
 import java.time.LocalDateTime;

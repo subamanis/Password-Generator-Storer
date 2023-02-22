@@ -1,7 +1,9 @@
-package manager.domain;
+package manager;
 
 //import manager.io.IOHandler;
 //import manager.security.SecurityHandler;
+
+import manager.io.Logger;
 
 import java.io.Console;
 import java.time.format.DateTimeFormatter;
@@ -11,6 +13,8 @@ public final class Utilities
 {
     private static Scanner sc = new Scanner(System.in);
     private static Console console = System.console();
+
+    public static final Logger logger = new Logger(Logger.LogMode.DEBUG_PC);
 
     public static final DateTimeFormatter DATETIME_FORMATTER = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss.SSS");
 

@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
 import manager.domain.Account2;
-import manager.domain.Utilities;
+import manager.Utilities;
 import manager.domain.acountfields.AccountField;
 
 import java.io.IOException;

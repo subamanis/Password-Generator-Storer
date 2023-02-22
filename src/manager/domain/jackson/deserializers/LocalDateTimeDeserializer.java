@@ -3,7 +3,7 @@ package manager.domain.jackson.deserializers;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
-import manager.domain.Utilities;
+import manager.Utilities;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
