@@ -1,21 +1,39 @@
 package manager;
 
-//import manager.io.IOHandler;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import com.petrosp.structures.Pair;
+import com.petrosp.util.PUtils;
+import manager.domain.Account;
+import manager.domain.DataRepository;
+import manager.domain.acountfields.*;
+import manager.domain.jackson.modules.ApplicationModule;
+import manager.io.IOHandler;
 import manager.io.JsonTest;
-//import manager.logic.Account;
-//import manager.logic.Utilities;
-//import manager.security.SecurityHandler;
+import manager.security.SecurityHandler;
 
+import javax.xml.crypto.Data;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.security.SecureRandom;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public final class Main
 {
-//    private List<Account> savedAccounts;
-//    private final Scanner sc = new Scanner(System.in);
-//    private static SecureRandom srng = new SecureRandom();
-//
+    private List<Account> savedAccounts;
+    private List<Account> deletedAccounts;
+    private final Scanner sc = new Scanner(System.in);
+    private static SecureRandom srng = new SecureRandom();
+
     public static void main(String[] args)
     {
         new Main().run();
@@ -23,9 +41,14 @@ public final class Main
 
     private void run()
     {
-        new JsonTest().run();
+//        new JsonTest().run();
+        readAndTransform();
+        return;
+
 //        IOHandler.validateDataFileAndDirectory();
-//        savedAccounts = IOHandler.readFromFile();
+//        Pair<List<Account>, List<Account>> lists = Pair.of(List.of(), List.of());
+//        savedAccounts = lists.getFirst();
+//        deletedAccounts = lists.getSecond();
 //
 //        initiateLoginSequence();
 //
@@ -38,20 +61,97 @@ public final class Main
 //        }
 
     }
+
+    private void readAndTransform()
+    {
+        var filePath = "C:\\Users\\petro\\Desktop\\manager\\";
+        var fileName = "BackUp Descrypted phone.txt";
+        var outputJsonFilePath = "C:\\Users\\petro\\Desktop\\manager\\output_files\\out.json";
+        List<Account> readAccounts = new ArrayList<>();
+        List<String> lines = null;
+        try {
+            lines = Files.readAllLines(Path.of(filePath+fileName), StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        for (int i = 0; i < lines.size(); i++) {
+            String line = lines.get(i++).trim();
+            if (line.equals("Account")) {
+                String siteName = lines.get(i++).trim();
+                String userName = lines.get(i++).trim();
+                String email = lines.get(i++).trim();
+                String extraInfo = lines.get(i++).trim();
+                String password = lines.get(i++).trim();
+
+                List<AccountField> fields = new ArrayList<>();
+                fields.add(new SiteNameField(siteName));
+                if (!userName.equals("-")) {
+                    fields.add(new UsernameField(userName));
+                }
+                if (!email.equals("-")) {
+                    fields.add(new EmailField(email));
+                }
+                if (!extraInfo.equals("-")) {
+                    fields.add(new ExtraInfoField(extraInfo));
+                }
+                fields.add(new PasswordField(password));
+                readAccounts.add(new Account(fields));
+            }
+        }
+
+        System.out.println("accounts read:");
+        System.out.println(readAccounts);
+
+        serializeAccs1(readAccounts, outputJsonFilePath);
+    }
+    public void serializeAccs1(List<Account> accounts, String outputPath) {
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
+        mapper.registerModule(new ApplicationModule());
+
+        try {
+            DataRepository repo = new DataRepository("thisIsAHashedPass", accounts, new ArrayList<>());
+            mapper.writeValue(new File("./test.json"), repo);
+
+            repo = mapper.readValue(new File("./test.json"), DataRepository.class);
+            System.out.println("deserialized:");
+            System.out.println(repo);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void serializeAccs(List<Account> accounts, String outputPath) {
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
+        mapper.registerModule(new ApplicationModule());
+        mapper.registerSubtypes(SiteNameField.class, UsernameField.class, EmailField.class, PasswordField.class, ExtraInfoField.class, CardNumberField.class, FourDigitPinField.class, ThreeDigitPinField.class);
+
+        try {
+            mapper.writeValue(new File("./test.json"), accounts);
+
+            List<Account> deserializedList = mapper.readValue(new File("./test.json"), new TypeReference<List<Account>>(){});
+            System.out.println("deserialized:");
+            System.out.println(deserializedList);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 //
 //    private void initiateLoginSequence()
 //    {
+//        String userPassInput;
 //        System.out.println("Hello and Welcome to the password manager!");
-//        if(SecurityHandler.getStoredHashedPass() == null){
-//            System.out.println("Firstly you need to create a password for the app (>7 characters).");
-//            Utilities.getPasswordInputWithCheckAndSave("Enter password: ");
-//            System.out.println("It is highly recommended to read the useful information from the menu before using the app.");
-//        }else{
-//            if(!Utilities.tryLogin()){
-//                System.exit(1);
-//            }
+//        if (SecurityHandler.getHashedUserPass() == null) {
+//            System.out.println("Firstly you need to create a password for the app.");
+//            userPassInput = PUtils.getPasswordInputWithCheck("Enter password: ");
+//            System.out.println("You can read the useful information from the menu before using the app.");
+//        } else {
+//            do {
+//                userPassInput = PUtils.getPasswordInputNoCheck("Give the password: ");
+//            } while(SecurityHandler.checkProgramPass(userPassInput));
 //        }
-//        SecurityHandler.hashAndSetUserKey(Utilities.getPasswordInputNoCheck("Give me the key: "));
+//        SecurityHandler.hashAndSetUserPass(userPassInput);
 //    }
 //
 //    private void showMenu()

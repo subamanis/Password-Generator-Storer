@@ -9,12 +9,12 @@ public final class AccountListMerger {
     private AccountListMerger() {
     }
 
-    public static List<Account2> merge(List<Account2> list1, List<Account2> deletedList1,
-                                       List<Account2> list2, List<Account2> deletedList2)
+    public static List<Account> merge(List<Account> list1, List<Account> deletedList1,
+                                      List<Account> list2, List<Account> deletedList2)
     {
-        List<Account2> mergedList = new ArrayList<>(list1.size()+5);
+        List<Account> mergedList = new ArrayList<>(list1.size()+5);
 
-        for (Account2 currAccount : list1) {
+        for (Account currAccount : list1) {
             var matchingAccount = list2.stream()
                     .filter(acc -> acc.hasSameUuid(currAccount))
                     .findFirst();
@@ -40,7 +40,7 @@ public final class AccountListMerger {
                         .anyMatch(accMerged -> accMerged.hasSameUuid(acc)))
                 .toList();
 
-        for (Account2 currAccount : remainingAccountsNotInList1) {
+        for (Account currAccount : remainingAccountsNotInList1) {
             var matchingDeletedAccount = deletedList1.stream()
                     .filter(acc -> acc.hasSameUuid(currAccount))
                     .findFirst();
@@ -56,7 +56,7 @@ public final class AccountListMerger {
         return mergedList;
     }
 
-    private static void mergeAccounts(Account2 mainAcc, Account2 otherAcc) {
+    private static void mergeAccounts(Account mainAcc, Account otherAcc) {
         for (AccountField currField : mainAcc.getFields()) {
             var matchingField = otherAcc.getFields().stream()
                     .filter(f -> f.getClass() == currField.getClass())

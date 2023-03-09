@@ -4,9 +4,8 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 
 @JsonTypeName("email")
 public class EmailField extends AccountField {
-    public EmailField() {
-        super("");
-    }
+    private EmailField() {}
+
     public EmailField(String value) {
         super(value);
     }

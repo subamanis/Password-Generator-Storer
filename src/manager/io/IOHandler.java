@@ -1,32 +1,30 @@
-//package manager.io;
-//
-//import manager.logic.Account;
-//import manager.security.SecurityHandler;
-//
-//import java.io.*;
-//import java.util.ArrayList;
-//import java.util.List;
-//
-//public abstract class IOHandler
-//{
-//    public static final String FILE_DIRECTORY = "../data/";
-//    public static final String FILE_NAME = FILE_DIRECTORY + "AccountData.txt";
-//
-//    public static void validateDataFileAndDirectory()
-//    {
-//        File dir = new File(FILE_DIRECTORY);
-//        File file = new File(FILE_NAME);
-//
-//        if(!(dir.isDirectory())){
-//            dir.mkdir();
-//        }
-//
-//        try {
-//            file.createNewFile();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
+package manager.io;
+
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class IOHandler
+{
+    public static final String FILE_DIRECTORY = "../data/";
+    public static final String FILE_NAME = FILE_DIRECTORY + "AccountData.json";
+
+    public static void validateDataFileAndDirectory()
+    {
+        File dir = new File(FILE_DIRECTORY);
+        File file = new File(FILE_NAME);
+
+        if(!(dir.isDirectory())){
+            dir.mkdir();
+        }
+
+        try {
+            file.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 //
 //    public static List<Account> readFromFile()
 //    {
@@ -94,4 +92,4 @@
 //        }
 //
 //    }
-//}
+}

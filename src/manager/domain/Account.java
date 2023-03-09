@@ -10,10 +10,20 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Account2
+public class Account
 {
     @JsonProperty("uuid")
     private final String UUID;
+
+    @JsonProperty("dateTimeCreated")
+    private final LocalDateTime dateTimeCreated;
+
+    // Corresponds to the dateTimeLastModified of the most recently modified field
+    @JsonProperty("dateTimeLastModified")
+    private LocalDateTime dateTimeLastModified;
+
+    @JsonProperty("dateTimeDeleted")
+    private LocalDateTime dateTimeDeleted;
 
     @JsonProperty("fields")
     private List<AccountField> fields;
@@ -21,22 +31,16 @@ public class Account2
     @JsonProperty("deletedFields")
     private List<AccountField> deletedFields;
 
-    @JsonProperty("dateTimeCreated")
-    private final LocalDateTime dateTimeCreated;
-
-    @JsonProperty("dateTimeDeleted")
-    private LocalDateTime dateTimeDeleted;
-
-    // Corresponds to the dateTimeLastModified of the most recently modified field
-    @JsonProperty("dateTimeDeleted")
-    private LocalDateTime dateTimeLastModified;
-
     private AccountField latestDeletedField;
     private LocalDateTime latestDeletedFieldLastModified;
     private int latestDeletedFieldIndex;
+    private String identifier;
 
-    @JsonCreator
-    public Account2(List<AccountField> fields) {
+    public Account(List<AccountField> fields) {
+        if (fields == null || fields.stream().noneMatch(f -> f.getClass() == SiteNameField.class)) {
+            throw new IllegalArgumentException("Accounts must have a SiteNameField");
+        }
+
         this.UUID = Utilities.generateUuid();
         this.fields = fields;
         this.dateTimeCreated = LocalDateTime.now();
@@ -45,25 +49,36 @@ public class Account2
     }
 
     @JsonCreator
-    public Account2(String uuid, List<AccountField> fields, List<AccountField> deletedFields,
-                    LocalDateTime dateTimeCreated, LocalDateTime dateTimeDeleted, LocalDateTime dateTimeLastModified)
+    public Account(String uuid, List<AccountField> fields, List<AccountField> deletedFields,
+                   LocalDateTime dateTimeCreated, LocalDateTime dateTimeLastModified, LocalDateTime dateTimeDeleted)
     {
+        if (fields == null || fields.stream().noneMatch(f -> f.getClass() == SiteNameField.class)) {
+            throw new IllegalArgumentException("Accounts must have a SiteNameField");
+        }
+
         this.UUID = uuid;
         this.fields = fields;
         this.deletedFields = deletedFields;
         this.dateTimeCreated = dateTimeCreated;
-        this.dateTimeDeleted = dateTimeDeleted;
         this.dateTimeLastModified = dateTimeLastModified;
+        this.dateTimeDeleted = dateTimeDeleted;
     }
 
     public String getStringIdentifier() {
-        for (AccountField field : this.fields) {
-            if (field.getClass() == SiteNameField.class) {
-                return field.getValue();
+        if (this.identifier == null) {
+            for (AccountField field : this.fields) {
+                if (field.getClass() == SiteNameField.class) {
+                    this.identifier = field.getValue();
+                    break;
+                }
+            }
+
+            if (this.identifier == null) {
+                this.identifier = "--nositename--";
             }
         }
 
-        return "--nositename--";
+        return this.identifier;
     }
 
     public boolean addFieldAtTheEndIfTypeNotPresent(AccountField field) {
@@ -119,7 +134,7 @@ public class Account2
         }
     }
 
-    public boolean hasSameUuid(Account2 other)
+    public boolean hasSameUuid(Account other)
     {
         return this.UUID.equals(other.getUuid());
     }
@@ -140,15 +155,27 @@ public class Account2
         this.fields = fields;
     }
 
+    public LocalDateTime getDateTimeCreated() {
+        return this.dateTimeCreated;
+    }
+
     public LocalDateTime getDateTimeLastModified() {
         return this.dateTimeLastModified;
+    }
+
+    public LocalDateTime getDateTimeDeleted() {
+        return this.dateTimeDeleted;
     }
 
     @Override
     public String toString() {
         return "Account2{" +
                 "uuid=" + UUID +
-                "fields=" + fields +
+                ", identifier=" + getStringIdentifier() +
+                ", dateTimeCreated=" + dateTimeCreated.format(Utilities.DATETIME_FORMATTER) +
+                ", dateTimeLastModified=" + dateTimeLastModified.format(Utilities.DATETIME_FORMATTER) +
+                (dateTimeDeleted == null ? "" : ", dateTimeDeleted=" + dateTimeDeleted.format(Utilities.DATETIME_FORMATTER)) +
+                ", fields=" + fields +
                 '}';
     }
 }

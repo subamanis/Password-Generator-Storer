@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 
 @JsonTypeName("cardNumber")
 public class CardNumberField extends AccountField {
+    private CardNumberField() {}
+
     public CardNumberField(String value) {
         super(value);
     }

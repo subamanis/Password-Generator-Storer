@@ -3,7 +3,10 @@ package manager;
 //import manager.io.IOHandler;
 //import manager.security.SecurityHandler;
 
+import com.petrosp.util.PUtils;
+import manager.io.IOHandler;
 import manager.io.Logger;
+import manager.security.SecurityHandler;
 
 import java.io.Console;
 import java.time.format.DateTimeFormatter;
@@ -11,8 +14,8 @@ import java.util.*;
 
 public final class Utilities
 {
-    private static Scanner sc = new Scanner(System.in);
-    private static Console console = System.console();
+    private static final Scanner sc = new Scanner(System.in);
+    private static final Console console = System.console();
 
     public static final Logger logger = new Logger(Logger.LogMode.DEBUG_PC);
 
@@ -28,41 +31,29 @@ public final class Utilities
     public static final char[] specialCharacters = new char[] {'!','@','#','$','&'};
 
 
-//    public static void getPasswordInputWithCheckAndSave(String prompt)
-//    {
-//        String input;
-//        do{
-//            char[] password = console.readPassword(prompt);
-//            input = new String(password);
-//            System.out.print("Is ' "+input+" ' correct? ");
-//        }while(!sc.next().toLowerCase().equals("yes"));
-//
+    public static void getPasswordInputWithCheckAndSave(String prompt)
+    {
+        String input;
+        do{
+            char[] password = console.readPassword(prompt);
+            input = new String(password);
+            System.out.print("Is ' "+input+" ' correct? ");
+        }while(!sc.next().equalsIgnoreCase("yes"));
+
 //        SecurityHandler.hashPassAndSetIfNotSet(input);
 //        IOHandler.saveAccounts(new ArrayList<>());
-//    }
+    }
 
     public static char[] getPasswordInputNoCheck(String prompt)
     {
         return console.readPassword(prompt);
     }
 
-//    public static boolean tryLogin()
-//    {
-//        System.out.print("Give the password: ");
-//        int counter=1;
-//        while(true){
-//            char[] password = console.readPassword("Enter password: ");
-//            String input = new String(password);
-//            if(!SecurityHandler.checkProgramPass(input)){
-//                System.out.println("Wrong password."+(3-counter)+" attempts remaining.");
-//                counter++;
-//                if(counter==4) return false;
-//            }
-//            else break;
-//        }
-//
-//        return true;
-//    }
+    public static boolean tryLogin()
+    {
+
+        return true;
+    }
 
     /* Ensures an int input from the user between two bounds.
      *  All the necessary checks are made.*/

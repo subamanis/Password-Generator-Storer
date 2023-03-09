@@ -1,0 +1,2047 @@
+[ {
+  "uuid" : "6a55f5d0-8a7e-4461-9f5e-d6a799117117",
+  "identifier" : "EA app",
+  "dateTimeCreated" : "10/03/2023 00:04:17.082",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.082",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "EA app",
+    "lastModified" : "10/03/2023 00:04:17.049"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.050"
+  }, {
+    "type" : "extraInfo",
+    "value" : "First concert: Insomnium",
+    "lastModified" : "10/03/2023 00:04:17.051"
+  }, {
+    "type" : "password",
+    "value" : "QbmNEdYuc8h",
+    "lastModified" : "10/03/2023 00:04:17.051"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "EA app",
+    "lastModified" : "10/03/2023 00:04:17.049"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.050"
+  }, {
+    "type" : "extraInfo",
+    "value" : "First concert: Insomnium",
+    "lastModified" : "10/03/2023 00:04:17.051"
+  }, {
+    "type" : "password",
+    "value" : "QbmNEdYuc8h",
+    "lastModified" : "10/03/2023 00:04:17.051"
+  } ]
+}, {
+  "uuid" : "336a5cb7-4ec4-4567-85b5-f3881aceaee3",
+  "identifier" : "Uplay",
+  "dateTimeCreated" : "10/03/2023 00:04:17.083",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.083",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Uplay",
+    "lastModified" : "10/03/2023 00:04:17.082"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.082"
+  }, {
+    "type" : "password",
+    "value" : "subamanis21",
+    "lastModified" : "10/03/2023 00:04:17.082"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Uplay",
+    "lastModified" : "10/03/2023 00:04:17.082"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.082"
+  }, {
+    "type" : "password",
+    "value" : "subamanis21",
+    "lastModified" : "10/03/2023 00:04:17.082"
+  } ]
+}, {
+  "uuid" : "0600ed9d-dd2e-4080-be51-db35f045412c",
+  "identifier" : "Battlenet",
+  "dateTimeCreated" : "10/03/2023 00:04:17.083",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.083",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Battlenet",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "email",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "extraInfo",
+    "value" : "question: AEK",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "uL13qP6XVa",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Battlenet",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "email",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "extraInfo",
+    "value" : "question: AEK",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "uL13qP6XVa",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ]
+}, {
+  "uuid" : "fa5b72ba-5c95-4858-887b-92989097a993",
+  "identifier" : "petrospapa21@gmail.com",
+  "dateTimeCreated" : "10/03/2023 00:04:17.083",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.083",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "extraInfo",
+    "value" : "linked to xpecialx247@",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "57F9d759MA",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "extraInfo",
+    "value" : "linked to xpecialx247@",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "57F9d759MA",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ]
+}, {
+  "uuid" : "5a221831-246f-4d22-a8e1-6afd141ef45d",
+  "identifier" : "xpecialx247@gmail.com",
+  "dateTimeCreated" : "10/03/2023 00:04:17.083",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.083",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "extraInfo",
+    "value" : "linked to petrospapa21@",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "E2VSFuCL8z",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "extraInfo",
+    "value" : "linked to petrospapa21@",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "E2VSFuCL8z",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ]
+}, {
+  "uuid" : "0fdca91e-9e2d-46a3-b110-863af0e406b2",
+  "identifier" : "Steam",
+  "dateTimeCreated" : "10/03/2023 00:04:17.083",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.083",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Steam",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "username",
+    "value" : "petrospapa21",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "5N5aTxd8QO",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Steam",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "username",
+    "value" : "petrospapa21",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "5N5aTxd8QO",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ]
+}, {
+  "uuid" : "45d32ebf-c2c1-42d7-96b1-14e87f7d6683",
+  "identifier" : "Paysafe",
+  "dateTimeCreated" : "10/03/2023 00:04:17.083",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.083",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Paysafe",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "extraInfo",
+    "value" : "Father's name: Giannhs (in greek)",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "3x6Pdy6Yr#",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Paysafe",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "extraInfo",
+    "value" : "Father's name: Giannhs (in greek)",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "3x6Pdy6Yr#",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ]
+}, {
+  "uuid" : "6fcc0d42-48cd-4f1c-aec7-3e309ab01e5b",
+  "identifier" : "Paypal",
+  "dateTimeCreated" : "10/03/2023 00:04:17.083",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.083",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Paypal",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "PapaPetros!@21",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Paypal",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "PapaPetros!@21",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ]
+}, {
+  "uuid" : "9042d7b5-a4fa-4080-9349-400a6f00a15b",
+  "identifier" : "GitHub",
+  "dateTimeCreated" : "10/03/2023 00:04:17.084",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.084",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "GitHub",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "username",
+    "value" : "subamanis",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "CnM1yfquzr",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "GitHub",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "username",
+    "value" : "subamanis",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  }, {
+    "type" : "password",
+    "value" : "CnM1yfquzr",
+    "lastModified" : "10/03/2023 00:04:17.083"
+  } ]
+}, {
+  "uuid" : "370c1c07-9341-43e6-af76-7e01d0e21402",
+  "identifier" : "Mi Account",
+  "dateTimeCreated" : "10/03/2023 00:04:17.084",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.084",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Mi Account",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "1mHM2OxrdX",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Mi Account",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "1mHM2OxrdX",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ]
+}, {
+  "uuid" : "c985055c-813d-48b6-a007-ccb26534e30c",
+  "identifier" : "Facebook",
+  "dateTimeCreated" : "10/03/2023 00:04:17.084",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.084",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Facebook",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "fN1cTaXMR4",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Facebook",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "fN1cTaXMR4",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ]
+}, {
+  "uuid" : "b6a1e9dd-7fcc-486f-aaa1-9074dc28a9cb",
+  "identifier" : "Instagram",
+  "dateTimeCreated" : "10/03/2023 00:04:17.084",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.084",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Instagram",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "Zp7BBrrohV9#",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Instagram",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "Zp7BBrrohV9#",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ]
+}, {
+  "uuid" : "fa71242a-ecc3-48cd-9e60-d520ec5e6e7f",
+  "identifier" : "GOG Galaxy",
+  "dateTimeCreated" : "10/03/2023 00:04:17.084",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.084",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "GOG Galaxy",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "IIAgruQ92H",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "GOG Galaxy",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "IIAgruQ92H",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ]
+}, {
+  "uuid" : "793ca2f2-47fa-4297-87c3-cbc3013f81ec",
+  "identifier" : "Linkedin",
+  "dateTimeCreated" : "10/03/2023 00:04:17.084",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.084",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Linkedin",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "RxE2o2Us",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Linkedin",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "RxE2o2Us",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ]
+}, {
+  "uuid" : "f833c4df-bb15-476a-996c-7d87b5493a7b",
+  "identifier" : "Twitch",
+  "dateTimeCreated" : "10/03/2023 00:04:17.084",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.084",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Twitch",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "username",
+    "value" : "papatheodorou21",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "2BhzV5hFaOLn",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Twitch",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "username",
+    "value" : "papatheodorou21",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "2BhzV5hFaOLn",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ]
+}, {
+  "uuid" : "b0d83ae7-fe75-4041-8eec-f2624d991152",
+  "identifier" : "taxisnet",
+  "dateTimeCreated" : "10/03/2023 00:04:17.084",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.084",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "taxisnet",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "username",
+    "value" : "PetPap21",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "nxT2p7VoXt",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "taxisnet",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "username",
+    "value" : "PetPap21",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "nxT2p7VoXt",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ]
+}, {
+  "uuid" : "4cb32a2c-5501-4d02-ac2f-581f4bcb3b14",
+  "identifier" : "BitBucket",
+  "dateTimeCreated" : "10/03/2023 00:04:17.084",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.084",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "BitBucket",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "username",
+    "value" : "Subamanis",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "4r2cL1n4",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "BitBucket",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "username",
+    "value" : "Subamanis",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "4r2cL1n4",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ]
+}, {
+  "uuid" : "809aa769-2061-4c68-b3a0-0780055bd9f7",
+  "identifier" : "Iniative Q",
+  "dateTimeCreated" : "10/03/2023 00:04:17.084",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.084",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Iniative Q",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "extraInfo",
+    "value" : "https://initiativeq.com/invite/Hfg2rLANpQ",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "QmL15WzkCD",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Iniative Q",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "extraInfo",
+    "value" : "https://initiativeq.com/invite/Hfg2rLANpQ",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  }, {
+    "type" : "password",
+    "value" : "QmL15WzkCD",
+    "lastModified" : "10/03/2023 00:04:17.084"
+  } ]
+}, {
+  "uuid" : "354723ec-df96-40bc-bdb1-b66e0c5eb9be",
+  "identifier" : "JetBrains",
+  "dateTimeCreated" : "10/03/2023 00:04:17.085",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.085",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "JetBrains",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "username",
+    "value" : "subamanis",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "JetBrains",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "username",
+    "value" : "subamanis",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ]
+}, {
+  "uuid" : "d8da2072-0f4d-47ec-9f2d-2e8e70425923",
+  "identifier" : "MEGA",
+  "dateTimeCreated" : "10/03/2023 00:04:17.085",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.085",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "MEGA",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "2ibeR46nRR",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "MEGA",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "2ibeR46nRR",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ]
+}, {
+  "uuid" : "b5d8debb-4ae0-4561-8a35-7ad27a87cbe6",
+  "identifier" : "Epic Games",
+  "dateTimeCreated" : "10/03/2023 00:04:17.085",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.085",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Epic Games",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "username",
+    "value" : "subamanis",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "aHXAJ6E4YX",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Epic Games",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "username",
+    "value" : "subamanis",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "aHXAJ6E4YX",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ]
+}, {
+  "uuid" : "004053df-946e-47cc-81bd-067106c1c861",
+  "identifier" : "Euro e-banking",
+  "dateTimeCreated" : "10/03/2023 00:04:17.085",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.085",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Euro e-banking",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "username",
+    "value" : "PetPap21",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "extraInfo",
+    "value" : "5947",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "sORTEP619!@",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Euro e-banking",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "username",
+    "value" : "PetPap21",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "extraInfo",
+    "value" : "5947",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "sORTEP619!@",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ]
+}, {
+  "uuid" : "b742d9a6-1742-44a1-a54d-4641308074e1",
+  "identifier" : "AWS student",
+  "dateTimeCreated" : "10/03/2023 00:04:17.085",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.085",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "AWS student",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "username",
+    "value" : "p3170133@aueb.gr",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "extraInfo",
+    "value" : "db with name Petros, password smallville21",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "gaelSlayer09!",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "AWS student",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "username",
+    "value" : "p3170133@aueb.gr",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "extraInfo",
+    "value" : "db with name Petros, password smallville21",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "gaelSlayer09!",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ]
+}, {
+  "uuid" : "88dfd8c9-fbbe-4442-9c0f-836d6c4da15f",
+  "identifier" : "Wifi router (Vodafone_0976)",
+  "dateTimeCreated" : "10/03/2023 00:04:17.085",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.085",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Wifi router (Vodafone_0976)",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "username",
+    "value" : "admin",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "extraInfo",
+    "value" : "WiFi pass: 6xm8d978k8amsf8f",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "rma3hf9u",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Wifi router (Vodafone_0976)",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "username",
+    "value" : "admin",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "extraInfo",
+    "value" : "WiFi pass: 6xm8d978k8amsf8f",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "rma3hf9u",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ]
+}, {
+  "uuid" : "925ce734-2c5a-4e65-8681-f5324ff6a7de",
+  "identifier" : "UnityID",
+  "dateTimeCreated" : "10/03/2023 00:04:17.085",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.085",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "UnityID",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "UnityID",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ]
+}, {
+  "uuid" : "18a0022f-bbce-4474-aaf5-55e12fefce5c",
+  "identifier" : "Oracle",
+  "dateTimeCreated" : "10/03/2023 00:04:17.085",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.085",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Oracle",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Oracle",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ]
+}, {
+  "uuid" : "c63c5c98-30e2-41a4-aee3-b3a610ab3284",
+  "identifier" : "netdimensiongames@gmail.com",
+  "dateTimeCreated" : "10/03/2023 00:04:17.086",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.086",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "netdimensiongames@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "EG2enoNYH9j6",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "netdimensiongames@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  }, {
+    "type" : "password",
+    "value" : "EG2enoNYH9j6",
+    "lastModified" : "10/03/2023 00:04:17.085"
+  } ]
+}, {
+  "uuid" : "62764190-51ea-45dc-b8fe-057cb4daf62b",
+  "identifier" : "amazon",
+  "dateTimeCreated" : "10/03/2023 00:04:17.086",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.086",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "amazon",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmai.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "subamanis21",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "amazon",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmai.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "subamanis21",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ]
+}, {
+  "uuid" : "d5cdb687-085d-46f9-b18b-c3442f1d081b",
+  "identifier" : "viva.gr",
+  "dateTimeCreated" : "10/03/2023 00:04:17.086",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.086",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "viva.gr",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "smallville21!",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "viva.gr",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "smallville21!",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ]
+}, {
+  "uuid" : "a17dd60f-c28a-4c69-ae99-352755536f02",
+  "identifier" : "GitLab",
+  "dateTimeCreated" : "10/03/2023 00:04:17.086",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.086",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "GitLab",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "Jqx5knmD6FBe",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "GitLab",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "Jqx5knmD6FBe",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ]
+}, {
+  "uuid" : "6e9179ec-0b34-491f-96d1-5e02cb8f39e0",
+  "identifier" : "Vivaldi",
+  "dateTimeCreated" : "10/03/2023 00:04:17.086",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.086",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Vivaldi",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "username",
+    "value" : "petros21",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "extraInfo",
+    "value" : "encryption: petrospapa21",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "smallville21",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Vivaldi",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "username",
+    "value" : "petros21",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "extraInfo",
+    "value" : "encryption: petrospapa21",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "smallville21",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ]
+}, {
+  "uuid" : "398b6ec6-61d6-494f-921e-f61c6bbf586d",
+  "identifier" : "Vilnius Application System",
+  "dateTimeCreated" : "10/03/2023 00:04:17.086",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.086",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Vilnius Application System",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "username",
+    "value" : "PJIIRH83K",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "nopasswordneeded",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Vilnius Application System",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "username",
+    "value" : "PJIIRH83K",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "nopasswordneeded",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ]
+}, {
+  "uuid" : "0b28cd23-3a31-4201-8d26-2e0706bc7039",
+  "identifier" : "Curiosity Stream",
+  "dateTimeCreated" : "10/03/2023 00:04:17.086",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.086",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Curiosity Stream",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "smallville21!",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Curiosity Stream",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "smallville21!",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ]
+}, {
+  "uuid" : "4944e93a-27e0-47db-9d02-70a185f06957",
+  "identifier" : "Tumblr",
+  "dateTimeCreated" : "10/03/2023 00:04:17.086",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.086",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Tumblr",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!@",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Tumblr",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!@",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ]
+}, {
+  "uuid" : "3b225d1d-ae35-4c45-860a-93b1af681faa",
+  "identifier" : "Vilnius Identity",
+  "dateTimeCreated" : "10/03/2023 00:04:17.086",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.086",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Vilnius Identity",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "username",
+    "value" : "1472044",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petros.papatheodorou@tprs.stud.vu.lt",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "extraInfo",
+    "value" : "LSIC num: 2109037 Application code: 5W9ZPBCEU  Student username: S2109037 Fictional character: Geralt of Rivia Nickname: Petros",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Vilnius Identity",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "username",
+    "value" : "1472044",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petros.papatheodorou@tprs.stud.vu.lt",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "extraInfo",
+    "value" : "LSIC num: 2109037 Application code: 5W9ZPBCEU  Student username: S2109037 Fictional character: Geralt of Rivia Nickname: Petros",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ]
+}, {
+  "uuid" : "68ce5579-a68a-4e4c-b79c-83c5a27cf592",
+  "identifier" : "Jetbrains",
+  "dateTimeCreated" : "10/03/2023 00:04:17.086",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.086",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Jetbrains",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "username",
+    "value" : "Petros21",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "p3170133@aueb.gr",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!@",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Jetbrains",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "username",
+    "value" : "Petros21",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "p3170133@aueb.gr",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!@",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ]
+}, {
+  "uuid" : "ad466834-6308-49da-b39f-958865bac4e2",
+  "identifier" : "OLS Αξιολογηση Γλώσσας",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "OLS Αξιολογηση Γλώσσας",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!@",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "OLS Αξιολογηση Γλώσσας",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!@",
+    "lastModified" : "10/03/2023 00:04:17.086"
+  } ]
+}, {
+  "uuid" : "30eb4235-5a3a-44c0-af3e-2f77cd345eb7",
+  "identifier" : "Humble Bundle",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Humble Bundle",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "gaelslayer99!@",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Humble Bundle",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "gaelslayer99!@",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "c1b5d243-9139-462d-b21e-32cf24f1ba13",
+  "identifier" : "Discord",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Discord",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "username",
+    "value" : "Petros_papa#2405",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "gaelslayer99!@",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Discord",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "username",
+    "value" : "Petros_papa#2405",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "gaelslayer99!@",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "32d0552b-230d-4c19-b85a-5871c3abfe8b",
+  "identifier" : "Glassdoor",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Glassdoor",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!@",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Glassdoor",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!@",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "88b5fdfa-5a78-4858-9828-a8e53d1a2246",
+  "identifier" : "Twitter",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Twitter",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "username",
+    "value" : "PetrosPapa21",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "NU62QOKb8751",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Twitter",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "username",
+    "value" : "PetrosPapa21",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "NU62QOKb8751",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "1939b8fd-65ee-4fe8-9c75-a147f62e52a7",
+  "identifier" : "Microsoft Account",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Microsoft Account",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "jtX66TsguFyz",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Microsoft Account",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "jtX66TsguFyz",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "93ecddb6-10f4-46e2-9043-d58c2900f438",
+  "identifier" : "ETE e-Banking",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "ETE e-Banking",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "username",
+    "value" : "9709862",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "8mC4rw3fpuIZ",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "ETE e-Banking",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "username",
+    "value" : "9709862",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "8mC4rw3fpuIZ",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "f465fea8-9839-45d4-ad32-ad758b16f83f",
+  "identifier" : "gov.gr",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "gov.gr",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!@",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "gov.gr",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21!@",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "e55c918e-eda5-46a5-b332-dd883e78e1f6",
+  "identifier" : "Nintendo",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Nintendo",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "ZCF12Ix5Fk9y",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Nintendo",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "ZCF12Ix5Fk9y",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "097a710a-38a6-456a-b574-f6a928ea1760",
+  "identifier" : "hughmngs77@gmail.com",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "hughmngs77@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "hughmngs77@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "O3r@ftsv1K",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "hughmngs77@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "hughmngs77@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "O3r@ftsv1K",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "624560e5-4b83-4253-8927-e36e04643d43",
+  "identifier" : "Reddit",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Reddit",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "username",
+    "value" : "petros211",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Reddit",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "username",
+    "value" : "petros211",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "Smallville21",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "4c1c6d95-2e79-4524-9ca8-05cb0d14d31c",
+  "identifier" : "Kik",
+  "dateTimeCreated" : "10/03/2023 00:04:17.087",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.087",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Kik",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "username",
+    "value" : "petrosp21",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "gaelslayer99",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Kik",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "username",
+    "value" : "petrosp21",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "gaelslayer99",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "2d850e8d-9a18-4a64-819f-a95bfdf7e745",
+  "identifier" : "Pizza Fan",
+  "dateTimeCreated" : "10/03/2023 00:04:17.088",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.088",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Pizza Fan",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "GaelSlayer99!@",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Pizza Fan",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  }, {
+    "type" : "password",
+    "value" : "GaelSlayer99!@",
+    "lastModified" : "10/03/2023 00:04:17.087"
+  } ]
+}, {
+  "uuid" : "bfd12c48-cd92-4eaf-83df-ce68f0db7303",
+  "identifier" : "Spotify",
+  "dateTimeCreated" : "10/03/2023 00:04:17.088",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.088",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Spotify",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "Romanticide1920!",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Spotify",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "Romanticide1920!",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ]
+}, {
+  "uuid" : "2554629b-6d4f-43e3-b074-85aceca8d0ed",
+  "identifier" : "Spectre Webmail",
+  "dateTimeCreated" : "10/03/2023 00:04:17.088",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.088",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Spectre Webmail",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "username",
+    "value" : "p.papatheodorou@spectre.gr",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "p.papatheodorou@spectre.gr",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "extraInfo",
+    "value" : "Old pass: 123qwe##",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "Gaelslayer99!@",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Spectre Webmail",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "username",
+    "value" : "p.papatheodorou@spectre.gr",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "p.papatheodorou@spectre.gr",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "extraInfo",
+    "value" : "Old pass: 123qwe##",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "Gaelslayer99!@",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ]
+}, {
+  "uuid" : "4bc008b0-8ac9-49e1-be2c-e76190671870",
+  "identifier" : "Figma",
+  "dateTimeCreated" : "10/03/2023 00:04:17.088",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.088",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Figma",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "gaelslayer99!@",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Figma",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "gaelslayer99!@",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ]
+}, {
+  "uuid" : "a80aa4c7-b152-4b1e-9783-74af0b551325",
+  "identifier" : "Revolut",
+  "dateTimeCreated" : "10/03/2023 00:04:17.088",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.088",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Revolut",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "acc: 1920 card pin: 6962",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Revolut",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "acc: 1920 card pin: 6962",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ]
+}, {
+  "uuid" : "0cd5a291-61fb-449e-a9ec-a2b297aa582c",
+  "identifier" : "Niantic Lightship",
+  "dateTimeCreated" : "10/03/2023 00:04:17.088",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.088",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Niantic Lightship",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "Y7KvTnHhYM",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Niantic Lightship",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "xpecialx247@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "Y7KvTnHhYM",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ]
+}, {
+  "uuid" : "01d1bb02-03e1-4b28-b1fd-5537401b70e9",
+  "identifier" : "Aorus ( + Gigabyte )",
+  "dateTimeCreated" : "10/03/2023 00:04:17.088",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.088",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Aorus ( + Gigabyte )",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "extraInfo",
+    "value" : "For gigabyte website: smallville21! @",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "smallville21",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Aorus ( + Gigabyte )",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "extraInfo",
+    "value" : "For gigabyte website: smallville21! @",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "smallville21",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ]
+}, {
+  "uuid" : "7c52f527-27e7-47c2-981c-e18afa882d5a",
+  "identifier" : "Windows Key",
+  "dateTimeCreated" : "10/03/2023 00:04:17.088",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.088",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "Windows Key",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "None@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "extraInfo",
+    "value" : "H3YCV-MTPVQ-QJ9FD-XHGJW-PGVVF",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "QyGv8ULn6Jav",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "Windows Key",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "None@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "extraInfo",
+    "value" : "H3YCV-MTPVQ-QJ9FD-XHGJW-PGVVF",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "QyGv8ULn6Jav",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ]
+}, {
+  "uuid" : "f9310005-d033-4e8d-b9ba-2054f505683f",
+  "identifier" : "LG tv",
+  "dateTimeCreated" : "10/03/2023 00:04:17.088",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.088",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "LG tv",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "subamanis@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "1234Alfa@",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "LG tv",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "subamanis@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "1234Alfa@",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ]
+}, {
+  "uuid" : "8dd66913-3af0-49bc-8046-e82988561dad",
+  "identifier" : "myaade",
+  "dateTimeCreated" : "10/03/2023 00:04:17.088",
+  "dateTimeLastModified" : "10/03/2023 00:04:17.088",
+  "fields" : [ {
+    "type" : "siteName",
+    "value" : "myaade",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "username",
+    "value" : "166139255",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "extraInfo",
+    "value" : "pass: 4e95ac17b37c49c59bcd2e3744dd3ec9 Ειδος 2.2 ενδοκοινωτηκες Κώδικας ΦΠΑ 14 Επί πιστωσει",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "00000000000",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ],
+  "deletedFields" : [ {
+    "type" : "siteName",
+    "value" : "myaade",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "username",
+    "value" : "166139255",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "email",
+    "value" : "petrospapa21@gmail.com",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "extraInfo",
+    "value" : "pass: 4e95ac17b37c49c59bcd2e3744dd3ec9 Ειδος 2.2 ενδοκοινωτηκες Κώδικας ΦΠΑ 14 Επί πιστωσει",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  }, {
+    "type" : "password",
+    "value" : "00000000000",
+    "lastModified" : "10/03/2023 00:04:17.088"
+  } ]
+} ]

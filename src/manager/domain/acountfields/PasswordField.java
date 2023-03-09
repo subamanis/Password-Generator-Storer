@@ -4,9 +4,8 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 
 @JsonTypeName("password")
 public class PasswordField extends AccountField {
-    public PasswordField() {
-        super("");
-    }
+    private PasswordField() {}
+
     public PasswordField(String value) {
         super(value);
     }

@@ -3,7 +3,7 @@ package manager.io;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import manager.Utilities;
-import manager.domain.Account2;
+import manager.domain.Account;
 import manager.domain.acountfields.AccountField;
 import manager.domain.acountfields.EmailField;
 import manager.domain.acountfields.ExtraInfoField;
@@ -31,11 +31,11 @@ public class JsonTest {
         try {
             List<AccountField> accountFields = List.of(new EmailField("test@yahoo.com"),
                     new ExtraInfoField("fdfdfdf"), new PasswordField("thisisapass"));
-            var account = new Account2(accountFields);
+            var account = new Account(accountFields);
 
             mapper.writeValue(new File("./test.json"), account);
-            Account2 account2Deserialized = mapper.readValue(new File("./test.json"), Account2.class);
-            System.out.println(account2Deserialized);
+            Account accountDeserialized = mapper.readValue(new File("./test.json"), Account.class);
+            System.out.println(accountDeserialized);
         } catch (IOException e) {
             e.printStackTrace();
         }

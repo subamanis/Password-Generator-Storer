@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 
 @JsonTypeName("fourDigitPin")
 public class FourDigitPinField extends AccountField {
+    private FourDigitPinField() {}
+
     public FourDigitPinField(String value) {
         super(value);
     }

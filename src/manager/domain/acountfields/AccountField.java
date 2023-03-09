@@ -1,10 +1,7 @@
 package manager.domain.acountfields;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.*;
 import com.fasterxml.jackson.annotation.JsonSubTypes.Type;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
-import com.fasterxml.jackson.annotation.JsonTypeName;
 import manager.Utilities;
 
 import java.time.LocalDateTime;
@@ -26,7 +23,10 @@ import java.util.Objects;
 public abstract class AccountField implements FieldValidator {
     private String value;
 
+    @JsonProperty("lastModified")
     private LocalDateTime dateTimeLastModified;
+
+    public AccountField() {}
 
     public AccountField(String value) {
         this.value = value;

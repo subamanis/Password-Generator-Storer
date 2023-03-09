@@ -4,9 +4,8 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 
 @JsonTypeName("extraInfo")
 public class ExtraInfoField extends AccountField {
-    public ExtraInfoField() {
-        super("");
-    }
+    private ExtraInfoField() {}
+
     public ExtraInfoField(String value) {
         super(value);
     }

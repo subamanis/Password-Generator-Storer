@@ -1,13 +1,12 @@
 package manager.networking;
 
-import manager.domain.Account2;
+import manager.domain.Account;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.ArrayList;
 import java.util.List;
 
 //TODO: add: private static final long serialVersionUID = -8242968608169744520L; to all classes to be sent over sockets
@@ -19,7 +18,7 @@ public final class SocketCommunicator
     private static final int PORT = 8888;
 
     @SuppressWarnings("unchecked")
-    public void sync(List<Account2> accounts)
+    public void sync(List<Account> accounts)
     {
         try(ServerSocket providerSocket = new ServerSocket(PORT, 1);
             Socket connection           = providerSocket.accept();
@@ -28,7 +27,7 @@ public final class SocketCommunicator
         {
             System.out.println("Just connected to client "+connection.getInetAddress()+" "+connection.getPort());
 
-            List<Account2> otherAccounts = (List<Account2>) in.readObject();
+            List<Account> otherAccounts = (List<Account>) in.readObject();
 
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
